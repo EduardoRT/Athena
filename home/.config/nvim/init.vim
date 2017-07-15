@@ -9,9 +9,9 @@ call plug#begin('~/.vim/plugged')
   Plug 'ajmwagar/vim-deus' " Colorscheme
 
   " Git {{{
+  Plug 'airblade/vim-gitgutter'
   Plug 'tpope/vim-fugitive'
   Plug 'tpope/vim-rhubarb'
-  Plug 'airblade/vim-gitgutter'
   " }}}
 call plug#end()
 
