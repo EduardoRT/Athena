@@ -13,6 +13,10 @@ call plug#begin('~/.vim/plugged')
   Plug 'tpope/vim-fugitive'
   Plug 'tpope/vim-rhubarb'
   " }}}
+  
+  " Misc {{{
+  Plug 'justinmk/vim-gtfo' " got | gof
+  " }}}
 call plug#end()
 
 source $HOME/.config/nvim/general.vim
